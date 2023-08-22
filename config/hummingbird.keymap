@@ -56,7 +56,7 @@
 
         combo_tab {
             timeout-ms = <50>;
-            key-positions = <8 9>;
+            key-positions = <0 10>;
             bindings = <&kp TAB>;
         };
 
@@ -102,19 +102,19 @@
             label = "Num";
             bindings = <
 &hm LEFT_SHIFT COLON       &kp NUMBER_0        &kp NUMBER_1       &kp NUMBER_2  &bt BT_CLR    &bt BT_NXT       &kp NUMBER_3   &kp NUMBER_4     &kp NUMBER_5  &hm RSHIFT EQUAL
-            &kp SEMI  &hm LALT NUMBER_6  &hm LCTRL NUMBER_7  &hm LCMD NUMBER_8   &kp EQUAL    &bt BT_PRV  &hm RGUI NUMBER_9  &hm RALT PLUS  &hm RCTRL MINUS   &hm RSHFT EQUAL
+            &kp SEMI  &hm LALT NUMBER_6  &hm LCTRL NUMBER_7  &hm LCMD NUMBER_8   &kp EQUAL    &bt BT_PRV  &hm RGUI NUMBER_9  &hm RALT PLUS  &hm RCTRL MINUS     &kp RS(MINUS)
                                   &none               &none              &none                                        &none          &none            &none
-                                                                        &kp N0   &kp MINUS        &trans             &trans
+                                                                        &kp N0      &trans        &trans             &trans
             >;
         };
 
         sym_layer {
             label = "Sym";
             bindings = <
-&kp GRAVE  &kp AMPERSAND  &kp ASTERISK   &kp TILDE   &kp PIPE       &kp LESS_THAN  &kp LEFT_PARENTHESIS           &kp RPAR  &kp DOUBLE_QUOTES   &kp BSLH
- &kp EXCL     &kp DOLLAR   &kp PERCENT   &kp CARET   &kp PLUS    &kp GREATER_THAN        &kp LEFT_BRACE    &kp RIGHT_BRACE   &kp SINGLE_QUOTE  &kp SLASH
-               &kp COLON   &kp AT_SIGN    &kp HASH                                     &kp LEFT_BRACKET  &kp RIGHT_BRACKET      &kp SEMICOLON
-                                        &kp LS(N0)  &kp UNDER              &trans                &trans
+&kp GRAVE  &kp AMPERSAND  &kp ASTERISK   &kp TILDE  &kp PIPE       &kp LESS_THAN  &kp LEFT_PARENTHESIS           &kp RPAR  &kp DOUBLE_QUOTES   &kp BSLH
+ &kp EXCL     &kp DOLLAR   &kp PERCENT   &kp CARET  &kp PLUS    &kp GREATER_THAN        &kp LEFT_BRACE    &kp RIGHT_BRACE   &kp SINGLE_QUOTE  &kp SLASH
+               &kp COLON   &kp AT_SIGN    &kp HASH                                    &kp LEFT_BRACKET  &kp RIGHT_BRACKET      &kp SEMICOLON
+                                        &kp LS(N0)    &trans              &trans                &trans
             >;
         };
     };
