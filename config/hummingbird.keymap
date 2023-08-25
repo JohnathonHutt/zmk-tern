@@ -74,6 +74,26 @@
             bindings = <&kp SEMICOLON>;
             key-positions = <24 25>;
         };
+
+        combo_m {
+            bindings = <&kp M>;
+            key-positions = <6 7>;
+        };
+
+        combo_j {
+            bindings = <&kp J>;
+            key-positions = <6 8>;
+        };
+
+        combo-g {
+            bindings = <&kp G>;
+            key-positions = <3 2>;
+        };
+
+        combo-b {
+            bindings = <&kp B>;
+            key-positions = <1 3>;
+        };
     };
 
     keymap {
